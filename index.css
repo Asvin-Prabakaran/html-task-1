@@ -1,0 +1,45 @@
+span{
+    color: red;
+}
+.star{
+    color: gold;
+}
+
+.rating {
+    display: inline-block;
+    
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    float: right;
+    cursor: pointer;
+    color: #ccc;
+  }
+  
+  .rating label:before {
+    content: '\2605';
+    margin-right: 3px;
+  }
+  
+  .rating input:checked ~ label {
+    color: #f90;
+    
+  }
+
+  table,th,td{
+    border: 2px solid black;
+    padding: 10px;
+    width: 1700px;
+    text-align: center;
+    
+  }
+  .box{
+    padding: 40px;
+  }
+  body{
+    background-image: linear-gradient(90deg,rgb(108, 186, 177),rgb(126, 191, 108));
+  }
